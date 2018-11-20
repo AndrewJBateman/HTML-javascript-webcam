@@ -1,2 +1,12 @@
-# video-webcam
-Simple html and javascript app to show video from webcam, works in internet explorer
+Webcam Video
+=================
+
+Use html and JavaScript to view video from webcam. Works in internet explorer
+
+
+To Do
+------------
+
+-Try in chrome<br>
+-comment<br>
+-add functionality
