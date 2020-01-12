@@ -1,7 +1,8 @@
 //declare variable that selects video element in html
 let video = document.querySelector("#videoElement");
 
-//code for accessing the getUserMedia API:
+/* getUserMedia returns a promise that returns an object of type mediaStreanm. 
+syntax: var promise = navigator.mediaDevices.getUserMedia(constraints); */
 if (navigator.mediaDevices.getUserMedia) {       
     navigator.mediaDevices.getUserMedia({audio: false, video: true}) //constraints in ({})
   .then(function(stream) {
@@ -11,6 +12,3 @@ if (navigator.mediaDevices.getUserMedia) {
     console.log("Something went wrong!");
   });
 }
-
-/* getUserMedia returns a promise that returns an object of type mediaStreanm. 
-syntax: var promise = navigator.mediaDevices.getUserMedia(constraints); */
