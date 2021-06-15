@@ -1,8 +1,12 @@
 # :zap: HTML Javascript Webcam
 
-Uses HTML and javascript to view video from a local webcam.
+* Uses HTML and javascript to view video from a local webcam.
+* **Note:** to open web links in a new window use: _ctrl+click on link_
 
-*** Note: to open web links in a new window use: _ctrl+click on link_**
+![GitHub repo size](https://img.shields.io/github/repo-size/AndrewJBateman/HTML-javascript-webcam?style=plastic)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/AndrewJBateman/HTML-javascript-webcam?style=plastic)
+![GitHub Repo stars](https://img.shields.io/github/stars/AndrewJBateman/HTML-javascript-webcam?style=plastic)
+![GitHub last commit](https://img.shields.io/github/last-commit/AndrewJBateman/HTML-javascript-webcam?style=plastic)
 
 ## :page_facing_up: Table of contents
 
@@ -16,6 +20,7 @@ Uses HTML and javascript to view video from a local webcam.
   * [:cool: Features](#cool-features)
   * [:clipboard: Status & To-Do List](#clipboard-status--to-do-list)
   * [:clap: Inspiration](#clap-inspiration)
+  * [:file_folder: License](#file_folder-license)
   * [:envelope: Contact](#envelope-contact)
 
 ## :books: General info
@@ -28,7 +33,7 @@ Uses HTML and javascript to view video from a local webcam.
 
 ## :signal_strength: Technologies
 
-* Ran in Google Chrome browser with: [Javascript engine V8 7.9.317.32 for Windows (x64)](https://v8.dev/).
+* Ran in Google Chrome browser with: [Javascript engine V8 for Windows (x64)](https://v8.dev/).
 
 ## :floppy_disk: Setup
 
@@ -56,7 +61,7 @@ if (navigator.mediaDevices.getUserMedia) {
 
 ## :clipboard: Status & To-Do List
 
-* Status: Working.
+* Status: Working. Checked june 2021.
 * To-Do: Nothing.
 
 ## :clap: Inspiration
@@ -64,6 +69,10 @@ if (navigator.mediaDevices.getUserMedia) {
 * [Kirupa article: Accessing Your Webcam in HTML](https://www.kirupa.com/html5/accessing_your_webcam_in_html5.htm)
 * [MDN Web Docs: MediaDevices.getUserMedia()](https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getUserMedia)
 
+## :file_folder: License
+
+* This project is licensed under the terms of the MIT license.
+
 ## :envelope: Contact
 
-* Repo created by [ABateman](https://www.andrewbateman.org) - you are welcome to [send me a message](https://andrewbateman.org/contact)
+* Repo created by [ABateman](https://github.com/AndrewJBateman), email: gomezbateman@yahoo.com
